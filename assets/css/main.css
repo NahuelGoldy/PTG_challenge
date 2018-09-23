@@ -1,37 +1,13 @@
 /*=== Nav === */
 
 /*=== form ===*/
-nav .navbar-form {
-    width: 350px;
-    float: left;
-    padding-top: 0;
-    padding-bottom: 0;
+.navbar-form {
+    text-align: center;
+    float: none !important;
+    padding: 0 !important;
     margin-left: 0;
+    margin-right: 0;
     border: 0;
-}
-
-nav .form-group {
-    width: 277px;
-}
-
-nav .form-control {
-    border-left: 0;
-    border-right: 0;
-    height: 44px;
-    box-shadow: none;
-}
-
-nav .input-group-addon {
-    background-color: #fff;
-    border-radius: 50%;
-}
-
-nav .input-group-addon.search {
-    border-right: 0;
-}
-
-nav .input-group-addon.remove {
-    border-left: 0;
 }
 
 /*=== User ===*/
@@ -63,8 +39,12 @@ nav .navbar-nav li a {
     color: black;
 }
 
+nav .navbar-nav:hover {
+    cursor: pointer;
+}
+
 nav .navbar-nav li a:hover {
-    background: #fff;
+    background: steelblue;
 }
 
 nav .glyphicon-user {
@@ -74,6 +54,7 @@ nav .glyphicon-user {
 
 .navbar {
     background-color: steelblue;
+    margin-bottom: 0 !important;
 }
 
 /*=== LeftNav ===*/
