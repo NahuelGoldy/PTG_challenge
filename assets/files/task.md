@@ -4,7 +4,7 @@
 Your task is to implement the following UI using Angular 1.6.x, JavaScript, CSS and HTML5.
 
 Mockup image:
-![alt text](https://www.dropbox.com/s/21r6c10bpr0naud/vlocity-code-challenge-screenshot.PNG?dl=0 "Assignment mockup")
+![alt text](https://www.dropbox.com/s/21r6c10bpr0naud/vlocity-code-challenge-screenshot.PNG?dl=0)
 
 Please make a Public Fork of this plunkr and share with us once you're done!
 
