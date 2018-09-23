@@ -1,0 +1,26 @@
+
+<h1>{{ person.name }}</h1>
+
+<img class="img-rounded" ng-src="{{ person.img }}">
+
+<ul>
+	<li><button class="btn btn-lg btn-primary">SEND MESSAGE!</button></li>
+	<li id="hearts"></li>
+</ul>
+
+<h5>{{ person.Description }}</h5>
+
+<table class="table table-striped table-bordered">
+	<thead>
+		<tr>
+			<th class="headerOne">Likes</th>
+			<th>Dislikes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="row in rows">
+			<td>{{ row.like }}</td>
+			<td>{{ row.dislike }}</td>
+		</tr>
+	</tbody>
+</table>
